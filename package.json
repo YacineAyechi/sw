@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.10",
     "axios": "^1.6.7",
     "dotenv": "^16.4.5",
     "firebase": "^10.8.0",
