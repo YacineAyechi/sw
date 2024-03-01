@@ -20,7 +20,7 @@ const HomePage = () => {
     event.preventDefault();
 
     try {
-      const accessToken = process.env.REACT_APP_BITLY_TOKEN;
+      const accessToken = process.env.NEXT_PUBLIC_REACT_APP_BITLY_TOKEN;
       const apiUrl = `https://api-ssl.bitly.com/v4/shorten`;
 
       const response = await fetch(apiUrl, {

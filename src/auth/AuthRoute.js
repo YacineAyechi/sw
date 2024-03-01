@@ -15,7 +15,7 @@ const AuthRoute = ({ children }) => {
     });
 
     return () => unsubscribe();
-  }, [auth, router]);
+  }, [router]);
 
   return children;
 };

@@ -15,7 +15,7 @@ const PrivateRoute = ({ children }) => {
     });
 
     return () => unsubscribe();
-  }, [auth, router]);
+  }, [router]);
 
   return children;
 };
