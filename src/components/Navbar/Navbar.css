@@ -1,0 +1,8 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 124px;
+  position: absolute;
+  margin-left: 91.5%;
+  margin-top: 11px;
+}

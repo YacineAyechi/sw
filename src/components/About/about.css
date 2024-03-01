@@ -1,0 +1,13 @@
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 860px;
+}
+
+.aboutUs h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}

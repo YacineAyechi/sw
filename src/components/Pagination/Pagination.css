@@ -1,0 +1,28 @@
+.pagination {
+  color: white;
+  padding: 10px;
+  display: flex;
+}
+
+.pageNumbers {
+  display: flex;
+}
+
+.pageNumbers div {
+  border: 1px solid #3f414b;
+  border-radius: 5px;
+  margin: 0 5px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.activePage {
+  border: 1px solid #7271f3 !important;
+  background-color: #7271f3;
+}
+
+.leftArrows,
+.rightArrows {
+  margin-top: 2px;
+  cursor: pointer;
+}

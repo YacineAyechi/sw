@@ -1,0 +1,100 @@
+.mylinks {
+  margin-top: 51px;
+  margin-left: 260px;
+  margin-bottom: 51px;
+}
+
+.mylinks h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+.total {
+  display: flex;
+  color: white;
+}
+
+.totalCount {
+  color: #7271f3;
+  margin-left: 5px;
+}
+
+.allLinks {
+  margin-top: 31px;
+  color: white;
+}
+
+.flexLink {
+  display: flex;
+}
+
+.LinkName {
+  font-size: 22px;
+}
+
+.singleLink {
+  background-color: #3f414b;
+  width: 1100px;
+  padding: 19px 27px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.RealUrl {
+  margin: 15px 0;
+}
+
+.flexLink a {
+  color: #7271f3;
+  margin-left: 5px;
+}
+
+.delete {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete svg {
+  cursor: pointer;
+  background-color: #813d3d;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 36px;
+  transition: ease-in-out 0.3s;
+}
+
+.delete svg:hover {
+  color: #813d3d;
+  background-color: transparent;
+}
+
+.longUrl {
+  max-width: 930px;
+  word-wrap: break-word;
+  margin-left: 80px !important;
+}
+
+.longUrlP {
+  position: absolute;
+}
+
+.noLinks {
+  display: flex;
+  margin-top: 15px;
+  color: white;
+  background-color: #3f414b;
+  width: 1100px;
+  padding: 19px 27px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.noLinks a,
+.secpLink {
+  margin-left: 5px;
+}
+
+.noLinks a {
+  color: #7271f3;
+}

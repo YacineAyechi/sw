@@ -1,14 +1,16 @@
 import PrivateRoute from "@/auth/PrivateRoute";
-import HomePage from "@/components/HomePage/HomePage";
+import About from "@/components/About/About";
 import Sidebar from "@/components/Sidebar/Sidebar";
 
-export default function Home() {
+const Contact = () => {
   return (
     <PrivateRoute>
       <div className="flex">
         <Sidebar />
-        <HomePage />
+        <About />
       </div>
     </PrivateRoute>
   );
-}
+};
+
+export default Contact;

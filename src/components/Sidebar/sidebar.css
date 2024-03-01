@@ -1,0 +1,46 @@
+.sidebar {
+  background-color: #3f4048;
+  width: 15%;
+  height: 100vh;
+}
+
+.sidebar img {
+  height: 91px;
+  width: 91px;
+  margin: 15px;
+  margin-bottom: 0px;
+}
+
+.sidebarLinks {
+  margin-top: 20px;
+}
+
+.sidebarLinks ul {
+  list-style-type: none;
+}
+
+.sidebarLinks li {
+  padding: 10px 20px;
+  background-color: #42434b;
+  margin-top: 2px;
+}
+
+/* .logout {
+  margin-top: 47.6vh !important;
+} */
+
+.logout {
+  margin-top: 49.2vh !important;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.userName {
+  color: white;
+  margin-top: 20px;
+  padding: 0 20px;
+
+  font-weight: bold;
+}

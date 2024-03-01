@@ -1,0 +1,56 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 860px;
+}
+
+.homepage h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.homepage input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3f4048;
+  color: white;
+}
+
+.homepage input:focus {
+  outline: none;
+}
+
+.secondInput {
+  width: 90% !important;
+  margin-right: 15px;
+}
+
+.homepage button {
+  width: 8%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7271f3;
+  color: white;
+  cursor: pointer;
+}
+
+.homepage h4 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.homepage a {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  color: #7271f3;
+  background-color: rgb(114, 113, 243, 10%);
+}
