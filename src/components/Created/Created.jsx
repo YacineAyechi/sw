@@ -92,8 +92,12 @@ const Created = () => {
                   </Link>
                 </div>
                 <div className="flexLink">
-                  <p>Shortened URL:</p>
-                  <Link href={link.shortUrl} target="_blank">
+                  <p className="longUrlP">Shortened URL:</p>
+                  <Link
+                    href={link.shortUrl}
+                    className="shortUrl"
+                    target="_blank"
+                  >
                     {link.shortUrl}
                   </Link>
                 </div>

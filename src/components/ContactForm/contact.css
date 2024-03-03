@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: 860px;
+  width: 75%;
 }
 
 .contact h1 {
@@ -40,4 +40,14 @@
 
 .contact textarea {
   height: 150px;
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 85;
+  }
 }

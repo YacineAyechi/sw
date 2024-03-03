@@ -18,3 +18,9 @@
   cursor: pointer;
   margin-top: 25px;
 }
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .loginV {
+    width: 50%;
+  }
+}

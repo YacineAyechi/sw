@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: 860px;
+  width: 56%;
 }
 
 .homepage h1 {
@@ -53,4 +53,31 @@
   border-radius: 5px;
   color: #7271f3;
   background-color: rgb(114, 113, 243, 10%);
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  .homepage {
+    width: 80%;
+  }
+  .secondInput {
+    width: 100% !important;
+  }
+  .homepage button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1336px) {
+  .secondInput {
+    width: 100% !important;
+  }
+
+  .homepage button {
+    width: 26%;
+
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+  }
 }

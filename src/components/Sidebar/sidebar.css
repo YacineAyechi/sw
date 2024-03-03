@@ -33,6 +33,10 @@
   margin-top: 49.2vh !important;
 }
 
+.mobile {
+  display: none;
+}
+
 .fixed {
   position: fixed;
 }
@@ -41,6 +45,89 @@
   color: white;
   margin-top: 20px;
   padding: 0 20px;
-
   font-weight: bold;
+}
+
+.userImage img {
+  border: 2px solid white;
+  border-radius: 66px;
+  width: 40px;
+  height: 40px;
+}
+
+.mobileNav {
+  display: none;
+}
+
+.mobile svg {
+  width: 50%;
+  margin-left: 7px;
+}
+
+.hamburgerIcon {
+  font-size: 45px;
+  color: white;
+  background-color: hsl(233, 7%, 26%);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mobileUserImage img {
+  border: 2px solid white;
+  border-radius: 66px;
+}
+
+.menu {
+  display: none;
+  background-color: hsl(233, 7%, 26%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.closeMenu {
+  color: white;
+  display: flex;
+  justify-content: end;
+  margin: 15px 7px;
+}
+
+.closeMenu svg {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.hamburgerOptions {
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+.hamburgerOptions li {
+  padding: 40px;
+  font-size: 25px;
+  background-color: #42434b;
+  margin: 15px;
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .mobileNav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
 }

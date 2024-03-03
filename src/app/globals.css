@@ -52,3 +52,9 @@ a {
   padding: 10px;
   margin-bottom: 25px;
 }
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  .flex {
+    display: block;
+  }
+}
