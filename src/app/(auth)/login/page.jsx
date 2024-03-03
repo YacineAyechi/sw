@@ -2,6 +2,11 @@
 import LoginWithGoogle from "@/components/LoginWithGoogle/LoginWithGoogle";
 import AuthRoute from "@/auth/AuthRoute";
 
+export const metadata = {
+  title: "SwiftLink | Login ",
+  description: "...",
+};
+
 const LoginPage = () => {
   return (
     <AuthRoute>
